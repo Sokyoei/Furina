@@ -1,0 +1,10 @@
+{
+    "editor.rulers": [
+        6,
+        72,
+        120,
+        132,
+        200
+    ],
+    "fortran.linter.modOutput": "${workspaceFolder}/src/**"
+}

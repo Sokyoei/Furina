@@ -1,0 +1,23 @@
+name = "furina"
+version = "0.0.1"
+license = "MIT"
+author = "Sokyoei"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+module-naming = false
+
+[install]
+library = false
+
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
+
+[dependencies]
+stdlib = "*"
+# toml-f = { git = "https://github.com/toml-f/toml-f.git" }
+# jsonff = { git = "https://gitlab.com/everythingfunctional/jsonff" }
