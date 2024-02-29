@@ -1,7 +1,6 @@
 $root_cache_paths = @(
     ".\build"
-    ".\cmake-build-debug-mingw"
-    ".\cmake-build-release-mingw"
+    ".\cmake-build-*"
 )
 foreach ($path in $root_cache_paths) {
     if (Test-Path $path) {

@@ -1,0 +1,1 @@
+fpm.exe build
