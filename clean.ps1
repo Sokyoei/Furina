@@ -12,6 +12,7 @@ $recurse_cache_paths = @(
     "*.exe"
     "*.mod"
     "*.smod"
+    "fort.*"
     "tempCodeRunnerFile.*"
 )
 foreach ($path in $recurse_cache_paths) {

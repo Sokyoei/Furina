@@ -2,6 +2,9 @@ program base
     implicit none
 
     integer(4)::i, j, k
+    real(8), parameter::PI = 3.1415926 ! const
+
+    print *, "Fortran const: ", PI
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fortran 循环
@@ -15,6 +18,7 @@ program base
     j = 0
     loop_do_while: do while (j < 10)
         print *, "2"
+        j = j + 1
     end do loop_do_while
 
     ! loop_do_concurrent: do concurrent()
