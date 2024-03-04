@@ -55,12 +55,12 @@ program type
     use point_module
     implicit none
     block
-        type(point)::p
+        type(point) :: p
         call p%init(1, 2)
         call p%print()
     end block
     block
-        type(point)::p2
+        type(point) :: p2
         p2 = make_point(1, 2)
         call p2%print()
     end block

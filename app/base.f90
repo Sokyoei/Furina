@@ -1,8 +1,8 @@
 program base
     implicit none
 
-    integer(4)::i, j, k
-    real(8), parameter::PI = 3.1415926 ! const
+    integer(4) :: i, j, k
+    real(8), parameter :: PI = 3.1415926 ! const
 
     print *, "Fortran const: ", PI
 

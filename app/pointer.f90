@@ -5,8 +5,8 @@
 program pointer
     implicit none
 
-    integer(8), pointer::pint;
-    integer(8), target::tint1, tint2;
+    integer(8), pointer :: pint;
+    integer(8), target :: tint1, tint2;
     ! allocate (pint)
 
     ! 指针 pint 指向目标 tint1

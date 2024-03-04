@@ -3,7 +3,7 @@
 program format
     implicit none
 
-    integer(8)::a;
+    integer(8) :: a;
     a = 5
 
     write (*, 100) a, a

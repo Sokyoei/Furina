@@ -6,5 +6,10 @@
         132,
         200
     ],
-    "fortran.linter.modOutput": "${workspaceFolder}/src/**"
+    "fortran.linter.modOutput": "${workspaceFolder}/**",
+    "fortran.linter.includePaths": [
+        "${workspaceFolder}/src/**",
+        "${workspaceFolder}/app/**",
+        "${workspaceFolder}/Sokyoei/**",
+    ]
 }

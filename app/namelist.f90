@@ -3,9 +3,9 @@
 program namelist
     implicit none
 
-    character(22), parameter::nml_file = "tempCodeRunnerFile.nml"
-    integer(8)::a, b
-    logical::flag
+    character(22), parameter :: nml_file = "tempCodeRunnerFile.nml"
+    integer(8) :: a, b
+    logical :: flag
 
     namelist /wnml/ a
 

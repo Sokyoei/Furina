@@ -3,9 +3,9 @@
 program file
     implicit none
 
-    logical::flag
-    integer(4)::iostat
-    character(20)::str
+    logical :: flag
+    integer(4) :: iostat
+    character(20) :: str
 
     ! open
     ! ------------------------------------------------------------------

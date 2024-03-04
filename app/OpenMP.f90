@@ -1,7 +1,7 @@
 program parallel
     implicit none
 
-    integer(4)::i
+    integer(4) :: i
 
 !$omp parallel do private(i)
     do i = 1, 10

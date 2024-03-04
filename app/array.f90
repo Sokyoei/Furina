@@ -5,14 +5,14 @@ program array
 
     ! 静态数组
     ! integer(8)::arr(5, 5)
-    integer(8), dimension(5, 5)::arr
+    integer(8), dimension(5, 5) :: arr
 
     ! 动态数组
-    integer(8), dimension(:, :), allocatable::allocarr
+    integer(8), dimension(:, :), allocatable :: allocarr
 
-    integer(4)::i, j
-    integer(4)::sizei, sizej
-    integer(4)::di, dj
+    integer(4) :: i, j
+    integer(4) :: sizei, sizej
+    integer(4) :: di, dj
 
     arr = 1
     data arr(1, :)/1, 2, 3, 4, 5/ !
