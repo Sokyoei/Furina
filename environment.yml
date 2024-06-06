@@ -1,0 +1,8 @@
+name: Furina
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fpm # Fortran package manager
+  - fortls #  Fortran language server
+  - fprettify # Fortran formatter
